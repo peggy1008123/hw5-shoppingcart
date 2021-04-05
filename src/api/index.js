@@ -7,22 +7,22 @@ import lighting from "../json/lighting.json";
 import tableware from "../json/tableware.json";
 
 export const getJSON = (url) => {
-  switch (url) {
-    case "/":
-      return products;
-    case "/textile":
-      return textile;
-    case "/tableware":
-      return tableware;
-    case "/lighting":
-      return lighting;
-    case "/cookware":
-      return cookware;
-    case "/furniture":
-      return furniture;
-    case "/home-accessories":
-      return homeAccessories;
-    default:
-      return products;
-  }
+    switch (url) {
+        case "/":
+            return products;
+        case "/textile":
+            return textile;
+        case "/tableware":
+            return tableware;
+        case "/lighting":
+            return lighting;
+        case "/cookware":
+            return cookware;
+        case "/furniture":
+            return furniture;
+        case "/home-accessories":
+            return homeAccessories;
+        default:
+            return products;
+    }
 };
