@@ -10,9 +10,7 @@ export default function ShoppingBag() {
   
   return (
     <Layout className="container main-layout">
-      <Layout className="bg-gray">
-        <NavBar />
-      </Layout>
+         <NavBar />
       <Layout className="bg-gray">
         <Header className="layout-header">
           <AppHeader title="Shopping Cart" />

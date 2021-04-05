@@ -22,7 +22,7 @@ export default function Shoppingproduct() {
   }, [cartItems]);
 
   return (
-    <Row>
+    <Row gutter={[32,32]}>
       {" "}
       {cartItems.length === 0 ? (
         <Col
@@ -36,7 +36,7 @@ export default function Shoppingproduct() {
         cartItems.map((item) => (
           <Col
             xs={{ span: 22, offset: 1 }}
-            sm={{ span: 22, offset: 1 }}
+            sm={{ span:22, offset: 1 }}
             md={{ span: 24 }}
           >
             <li key={item.id} className="cart-item">
